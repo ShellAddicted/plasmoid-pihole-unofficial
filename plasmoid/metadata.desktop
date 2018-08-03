@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=plasmoid-pihole-unofficial
+Comment=See pihole stats directly on your desktop
+Type=Service
+
+X-KDE-PluginInfo-Author=shelladdicted
+X-KDE-PluginInfo-Email=shelladdicted@gmail.com
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Name=org.shelladdicted.holestats
+X-KDE-PluginInfo-Version=0.0.1
+X-KDE-PluginInfo-Website=https://github.com/ShellAddicted/plasmoid-pihole-unofficial
+X-KDE-ServiceTypes=Plasma/Applet
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-KDE-PluginInfo-Category=Windows and Tasks
+
