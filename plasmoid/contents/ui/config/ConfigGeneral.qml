@@ -9,6 +9,7 @@ import org.kde.plasma.extras 2.0 as PlasmaExtras
 ColumnLayout {
     property alias cfg_interval: interval.value
     property alias cfg_apiurl: apiurl.text
+    property alias cfg_pwhash: pwhash.text
 
     ColumnLayout{
         spacing: 5
@@ -41,6 +42,16 @@ ColumnLayout {
                 id: apiurl
                 Layout.fillWidth: true
             }
+
+            Label{
+                text: i18n("pihole Api authentifcation token: (value of WEBPASSWORD in /etc/pihole/setupVars.conf)")
+            }
+
+            TextField {
+                id: pwhash
+                Layout.fillWidth: true
+            }
+
         }
     }
     

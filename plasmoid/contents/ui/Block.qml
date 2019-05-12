@@ -1,6 +1,7 @@
 import QtQuick 2.3
 import QtQuick.Layouts 1.2
 
+
 Rectangle{
     id: blockroot
     property string labelText: ""
@@ -11,6 +12,8 @@ Rectangle{
         id: ft;
         source:'../fonts/SourceSansPro-Semibold.ttf'
     }
+
+
 
     RowLayout{
         anchors.fill: parent;
@@ -42,6 +45,9 @@ Rectangle{
                     
                 }
             }
+
+
+
         }
 
         Image {
@@ -51,6 +57,9 @@ Rectangle{
             fillMode: Image.PreserveAspectFit
             source: blockroot.logo
         } 
+
+
+
     }
     Layout.minimumHeight: 50
     Layout.minimumWidth: clay.Layout.minimumWidth;
