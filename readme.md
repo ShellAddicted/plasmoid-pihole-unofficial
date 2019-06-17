@@ -1,6 +1,6 @@
 # Description
 
-a third-party pihole widget for plasma DE (KDE5)  
+A third-party pihole widget for plasma DE (KDE5)  
 
 ![screenshot](https://github.com/ShellAddicted/plasmoid-pihole-unofficial/blob/master/screenshot.jpg)
 
@@ -15,4 +15,5 @@ $plasmapkg2 --install plasmoid/
 ## License
 - This project is under GPLv3 see [License](https://github.com/ShellAddicted/plasmoid-pihole-unofficial/blob/master/LICENSE)
 - Source Sans Pro Font is under OFL by Adobe Systems Incroporated see [Source Sans Pro's license](https://github.com/adobe-fonts/source-sans-pro/blob/master/LICENSE.md)
+- Stanford JS Crypto Library (sjcl.js) is under GPLv2+ see [sjcl's License](https://github.com/bitwiseshiftleft/sjcl/blob/master/LICENSE.txt)
 - Icons by [icons8](https://icons8.com)

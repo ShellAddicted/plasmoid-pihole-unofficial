@@ -12,6 +12,9 @@
     <entry name="apiurl" type="string">
       <default>http://pi.hole/admin/api.php</default>
     </entry>
+    <entry name="passwordhash" type="string">
+      <default></default>
+    </entry>
   </group>
 </kcfg>
 
